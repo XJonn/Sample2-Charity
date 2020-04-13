@@ -1,7 +1,13 @@
 body{
 	margin: 0;
-}
+	background-color:  #9fdfbb;
 
+}
+header{
+	background-color: blue;
+	padding: 30px 30px;
+	margin-bottom: 150px;
+}
 .wrapper{
 	display: grid;
 	grid-template-columns: 400px 400px;
@@ -19,8 +25,9 @@ img{
 }
 
 .item-1{
-	background-color: lightblue;
+	background-color: #0066ff;
 	max-height: 400px
+
 }
 .item-1 h2, p{
 	margin: 20px 30px;
@@ -30,9 +37,12 @@ img{
 }
 .item-2{
 	max-height: 400px;
+
 }
+
 .item-4{
-	background-color: lightgreen;
+	background-color: #ff4dff;
+
 }
 .item-4 h2, p{
 	margin: 20px 30px;
