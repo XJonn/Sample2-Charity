@@ -1,79 +1,99 @@
+/*Margin Reset and grey background color*/
 body{
 	margin: 0;
 	background-color: #b3b3b3;
 }
+/*Header color blue, text alignment*/
 header{
 	background-color: blue;
 	padding-left: 50px;
 	padding-top: 1px;
 }
+/*header text color, font, and font size*/
 h1{
 	color: white;
     font-family: 'Caveat', cursive;
     font-size: 70px;
 }
+/*content header font and font color*/
 h2{
     font-family: 'Cantarell', sans-serif;
     color: white;
 }
+/*removing underline from link, creating donation box (color, 
+box fill, and border properties)*/
 a{
 	text-decoration: none;
 	background-color: green;
 	padding: 20px 30px;
 	border: 8px solid #004d00;
 }
+/*Changing default text color of "Donate" link*/
 a:link{
 	color: white;
 }
+/*Color of text when "Donate" link has already been visited*/
 a:visited{
 	color: white;
 }
+/*Color change when you click on the "Donate" box*/
 a:active{
 	background-color: #006600;
 	border: 8px solid #001a00;
 }
+/*Defining font and font color for "Our Mission"*/
 p{
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 }
+/*Grid display, defining the columns of the grid, centering everything
+so content is together, and space between the header and footer */
 .wrapper{
 	display: grid;
 	grid-template-columns: 400px 400px;
 	justify-content: center;
 	margin: 75px 0;
 }
-main{
-	padding: 40px 40px;
-}
+/*Correcting some small overlapse*/
 img, .item-4{
 	width: 400px;
 	height: 400px;
 }
-
+/*"Our Mission" background color and overlapse correction*/
 .item-1{
 	background-color: #3399ff;
 	max-height: 400px
 }
+/*Space for text content from the borders*/
 .item-1 h2, p{
 	margin: 20px 30px;
 }
+/*Font size of text under "Our Mission" Section*/
 .item-1 p{
 	font-size: 14px;
 }
+/*Overlapse correction*/
 .item-2{
 	max-height: 400px;
 }
+/*Positioning the "Donate" box*/
 .wrapper a{
 	position: relative;
 	left: 140px;
 	top: 85px;
 }
+/*Background color for "What you can do" section*/
 .item-4{
 	background-color: #5c5cd6;
 }
+/*Space for text content from borders*/
 .item-4 h2, p{
 	margin: 20px 30px;
 }
+/*Basically saying what do fo if the browser window is under 830px.
+It changes the content into a column flexbox, removes the picture from
+the first row, re-sizes margin so you don't have to scroll sideways,
+and readjusts heading text*/
 @media all and (max-width: 830px){
 	.wrapper{
 		display: inline-flex;
@@ -89,10 +109,12 @@ img, .item-4{
 		margin: 0 auto;
 	}
 }
+/*Footer color and fill*/
 footer{
 	background-color: blue;
 	padding: 1px 1px;
 }
+/*Footer text color and centering text*/
 footer h4{
 	color: white;
 	text-align: center
