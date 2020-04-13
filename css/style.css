@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 400px 400px;
+	justify-content: center;
+
+}
+
+main{
+	padding: 40px 40px;
+}
+
+img{
+	width: 400px;
+	height: 400px;
+}
+
+.item-1{
+	background-color: lightblue;
+	max-height: 400px
+}
+.item-1 h2, p{
+	margin: 20px 30px;
+}
+.item-1 p{
+	font-size: 14px;
+}
+.item-2{
+	max-height: 400px;
+}
+.item-4{
+	background-color: lightgreen;
+}
+.item-4 h2, p{
+	margin: 20px 30px;
+}
