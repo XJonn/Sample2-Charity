@@ -6,7 +6,6 @@ body{
 /*Header color blue, text alignment*/
 header{
 	background-color: blue;
-	padding-left: 50px;
 	padding-top: 1px;
 }
 /*header text color, font, and font size*/
@@ -14,6 +13,8 @@ h1{
 	color: white;
     font-family: 'Caveat', cursive;
     font-size: 70px;
+	padding-left: 50px;
+	padding-top: 1px;
 }
 /*content header font and font color*/
 h2{
@@ -98,7 +99,7 @@ and readjusts heading text*/
 	.wrapper{
 		display: inline-flex;
 		flex-direction: column;
-	}
+		}
 	.item-2{
 		display: none;
 	}
@@ -107,6 +108,9 @@ and readjusts heading text*/
 	}
 	h1{
 		margin: 0 auto;
+	}
+	.item-1{
+		max-width: 400px;
 	}
 }
 /*Footer color and fill*/
