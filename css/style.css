@@ -7,6 +7,7 @@ body{
 header{
 	background-color: blue;
 	padding-top: 1px;
+	max-width: 100%;
 }
 /*header text color, font, and font size*/
 h1{
